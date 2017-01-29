@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20D84475-A570-44FB-9911-4E03AF099F73}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>Debug\</IntDir>
+    <IncludePath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;..\..\INCLUDE;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\LIB;$(LibraryPath)</LibraryPath>
+    <TargetExt>.lib</TargetExt>
+    <ExecutablePath>C:\Program Files\Microsoft SDKs\Windows\v6.0A\Bin;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>Release\</IntDir>
+    <IncludePath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;..\..\INCLUDE;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>..\..\LIB\;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(TargetFileName) ..\..\LIB</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib;dinput8.lib;dxguid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(TargetFileName) ..\..\LIB</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SRC\BaseClass.h" />
+    <ClInclude Include="..\..\SRC\BoundingBox.h" />
+    <ClInclude Include="..\..\SRC\BoundingShape.h" />
+    <ClInclude Include="..\..\SRC\BoundingSphere.h" />
+    <ClInclude Include="..\..\SRC\Camera.h" />
+    <ClInclude Include="..\..\SRC\CLassManager.h" />
+    <ClInclude Include="..\..\SRC\CollisionManager.h" />
+    <ClInclude Include="..\..\SRC\CRandom.h" />
+    <ClInclude Include="..\..\SRC\Entity.h" />
+    <ClInclude Include="..\..\SRC\FileIO.h" />
+    <ClInclude Include="..\..\SRC\FrameTimer.h" />
+    <ClInclude Include="..\..\SRC\Frustum.h" />
+    <ClInclude Include="..\..\SRC\FuzzyHedges.h" />
+    <ClInclude Include="..\..\SRC\FuzzyModule.h" />
+    <ClInclude Include="..\..\SRC\FuzzyOperators.h" />
+    <ClInclude Include="..\..\SRC\FuzzyRule.h" />
+    <ClInclude Include="..\..\SRC\FuzzySet.h" />
+    <ClInclude Include="..\..\SRC\FuzzySet_LeftShoulder.h" />
+    <ClInclude Include="..\..\SRC\FuzzySet_RightShoulder.h" />
+    <ClInclude Include="..\..\SRC\FuzzySet_Singleton.h" />
+    <ClInclude Include="..\..\SRC\FuzzySet_Triangle.h" />
+    <ClInclude Include="..\..\SRC\FuzzyTerm.h" />
+    <ClInclude Include="..\..\SRC\FuzzyVariable.h" />
+    <ClInclude Include="..\..\SRC\FzSet.h" />
+    <ClInclude Include="..\..\SRC\IButtonListener.h" />
+    <ClInclude Include="..\..\SRC\IMapperListener.h" />
+    <ClInclude Include="..\..\SRC\IMenuButtonListener.h" />
+    <ClInclude Include="..\..\SRC\IMousePosListener.h" />
+    <ClInclude Include="..\..\SRC\InputConstants.h" />
+    <ClInclude Include="..\..\SRC\InputContext.h" />
+    <ClInclude Include="..\..\SRC\InputMapper.h" />
+    <ClInclude Include="..\..\SRC\InputRangeConverter.h" />
+    <ClInclude Include="..\..\SRC\IRawButtonListener.h" />
+    <ClInclude Include="..\..\SRC\MovingEntity.h" />
+    <ClInclude Include="..\..\SRC\GameObjectType.h" />
+    <ClInclude Include="..\..\SRC\GameState.h" />
+    <ClInclude Include="..\..\SRC\GameStateManager.h" />
+    <ClInclude Include="..\..\SRC\GameTime.h" />
+    <ClInclude Include="..\..\SRC\GameUtil.h" />
+    <ClInclude Include="..\..\SRC\GameWindow.h" />
+    <ClInclude Include="..\..\SRC\GameWorld.h" />
+    <ClInclude Include="..\..\SRC\GL2DBox.h" />
+    <ClInclude Include="..\..\SRC\GL2DText.h" />
+    <ClInclude Include="..\..\SRC\GLBox.h" />
+    <ClInclude Include="..\..\SRC\GLFog.h" />
+    <ClInclude Include="..\..\SRC\GLLight.h" />
+    <ClInclude Include="..\..\SRC\GLParticleEngine.h" />
+    <ClInclude Include="..\..\SRC\GLText.h" />
+    <ClInclude Include="..\..\SRC\Graphics.h" />
+    <ClInclude Include="..\..\SRC\IGameWorldListener.h" />
+    <ClInclude Include="..\..\SRC\IKeyCharListener.h" />
+    <ClInclude Include="..\..\SRC\InputManager.h" />
+    <ClInclude Include="..\..\SRC\ITimerListener.h" />
+    <ClInclude Include="..\..\SRC\Matrix4.h" />
+    <ClInclude Include="..\..\SRC\MessageDispatcher.h" />
+    <ClInclude Include="..\..\SRC\Model_3DS.h" />
+    <ClInclude Include="..\..\SRC\MyException.h" />
+    <ClInclude Include="..\..\SRC\OctreeCollision.h" />
+    <ClInclude Include="..\..\SRC\Particle.h" />
+    <ClInclude Include="..\..\SRC\ParticleEngine.h" />
+    <ClInclude Include="..\..\SRC\Plane.h" />
+    <ClInclude Include="..\..\SRC\Quaternion.h" />
+    <ClInclude Include="..\..\SRC\RawInputConstants.h" />
+    <ClInclude Include="..\..\SRC\ScreenDecal.h" />
+    <ClInclude Include="..\..\SRC\Skybox.h" />
+    <ClInclude Include="..\..\SRC\SmartPtr.h" />
+    <ClInclude Include="..\..\SRC\State.h" />
+    <ClInclude Include="..\..\SRC\StateMachine.h" />
+    <ClInclude Include="..\..\SRC\Telegram.h" />
+    <ClInclude Include="..\..\SRC\Texture.h" />
+    <ClInclude Include="..\..\SRC\Timer.h" />
+    <ClInclude Include="..\..\SRC\DirectXVector.h" />
+    <ClInclude Include="..\..\SRC\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SRC\BaseClass.cpp" />
+    <ClCompile Include="..\..\SRC\Camera.cpp" />
+    <ClCompile Include="..\..\SRC\CollisionManager.cpp" />
+    <ClCompile Include="..\..\SRC\CRandom.cpp" />
+    <ClCompile Include="..\..\SRC\Entity.cpp" />
+    <ClCompile Include="..\..\SRC\ClassManager.cpp" />
+    <ClCompile Include="..\..\SRC\FrameTimer.cpp" />
+    <ClCompile Include="..\..\SRC\Frustum.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzyModule.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzyOperators.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzySet_LeftShoulder.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzySet_RightShoulder.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzySet_Singleton.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzySet_Triangle.cpp" />
+    <ClCompile Include="..\..\SRC\FuzzyVariable.cpp" />
+    <ClCompile Include="..\..\SRC\InputContext.cpp" />
+    <ClCompile Include="..\..\SRC\InputMapper.cpp" />
+    <ClCompile Include="..\..\SRC\InputRangeConverter.cpp" />
+    <ClCompile Include="..\..\SRC\MovingEntity.cpp" />
+    <ClCompile Include="..\..\SRC\GameObjectType.cpp" />
+    <ClCompile Include="..\..\SRC\GameState.cpp" />
+    <ClCompile Include="..\..\SRC\GameStateManager.cpp" />
+    <ClCompile Include="..\..\SRC\GameWindow.cpp" />
+    <ClCompile Include="..\..\SRC\GameWorld.cpp" />
+    <ClCompile Include="..\..\SRC\GL2DBox.cpp" />
+    <ClCompile Include="..\..\SRC\GL2DText.cpp" />
+    <ClCompile Include="..\..\SRC\GLBox.cpp" />
+    <ClCompile Include="..\..\SRC\GLFog.cpp" />
+    <ClCompile Include="..\..\SRC\GLLight.cpp" />
+    <ClCompile Include="..\..\SRC\GLParticleEngine.cpp" />
+    <ClCompile Include="..\..\SRC\GLText.cpp" />
+    <ClCompile Include="..\..\SRC\GLVector.cpp" />
+    <ClCompile Include="..\..\SRC\Graphics.cpp" />
+    <ClCompile Include="..\..\SRC\InputManager.cpp" />
+    <ClCompile Include="..\..\SRC\Matrix4.cpp" />
+    <ClCompile Include="..\..\SRC\MessageDispatcher.cpp" />
+    <ClCompile Include="..\..\SRC\Model_3DS.cpp" />
+    <ClCompile Include="..\..\SRC\OctreeCollision.cpp" />
+    <ClCompile Include="..\..\SRC\ParticleEngine.cpp" />
+    <ClCompile Include="..\..\SRC\Quaternion.cpp" />
+    <ClCompile Include="..\..\SRC\ScreenDecal.cpp" />
+    <ClCompile Include="..\..\SRC\Skybox.cpp" />
+    <ClCompile Include="..\..\SRC\Texture.cpp" />
+    <ClCompile Include="..\..\SRC\Timer.cpp" />
+    <ClCompile Include="..\..\SRC\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram11.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

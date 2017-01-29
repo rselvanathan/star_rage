@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{79bf66b8-8999-4747-927a-d9302c0c47cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{28a1bf92-cc7f-44ee-8b05-cea4492d2a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{f5b92f57-3e54-438d-b2e2-bfa4dd85ae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{294d4305-9fd8-4b5d-a702-7f871d5970a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{8542c23e-584a-4347-9e16-74c88077ccfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{43fbbe26-3005-4c5e-b847-44cafac5414b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{2cfb0787-c47d-4e1c-a706-2a391fdb745e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Testing">
+      <UniqueIdentifier>{f1046446-52f1-4371-adb5-6a1721cabb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{6829ec11-09c6-4b5d-bd1a-d9c478302d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Score">
+      <UniqueIdentifier>{6085b341-6a30-45bf-a0cf-5fa0513a0c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Enemy">
+      <UniqueIdentifier>{fe509412-eee0-4096-b5d3-8851e88bd30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Enemy\EnemyStates">
+      <UniqueIdentifier>{e5c29c19-189b-4d04-b31a-1b85e223b897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\PowerUp">
+      <UniqueIdentifier>{0d74bdb1-bcc8-474d-9c00-cf837805be6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Shooting">
+      <UniqueIdentifier>{9e420230-8e72-4813-8d0a-f0eabe9a8373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Enemy">
+      <UniqueIdentifier>{f4d6d215-6754-4b11-a2f9-30cd3935e6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Enemy\EnemyStates">
+      <UniqueIdentifier>{5dad2f48-6eae-4036-baa4-0dec3fc086c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\PowerUp">
+      <UniqueIdentifier>{c6a9184c-d0c8-4403-99ef-5bc3cfb0f17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Shooting">
+      <UniqueIdentifier>{4f70ba3c-2e20-4cda-a94d-7335a1b7d98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Enemy\Enemy Selection Systems">
+      <UniqueIdentifier>{1b08c408-f541-41cf-a3c1-504aeec31e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Enemy\Enemy Selection Systems">
+      <UniqueIdentifier>{da1008b6-e3ec-4f84-9211-9f31470815f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Particle">
+      <UniqueIdentifier>{588f71ce-5fa7-4729-855c-1f7e0e0c38a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\Screen Decals">
+      <UniqueIdentifier>{6953d730-d9bb-48ae-8ab0-caae41d5a085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\ParticleEffects">
+      <UniqueIdentifier>{1dd1c58f-0040-4150-b594-9a6f853c2372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\ScreenDecal">
+      <UniqueIdentifier>{5f8f02a4-b892-4897-a5a7-5264acd9b522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States\Options">
+      <UniqueIdentifier>{80c5d125-b335-43c2-ac46-b0935b125789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Options">
+      <UniqueIdentifier>{6694dca4-46c2-44af-b768-117533d14963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Messaging">
+      <UniqueIdentifier>{806cbaf1-ce08-481a-98eb-bfe02f98b63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Messaging\IDList">
+      <UniqueIdentifier>{8ac8396e-9bc5-4b4e-9e09-b40ccceb6a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Messaging\Messages">
+      <UniqueIdentifier>{a3468180-1f07-4951-8337-b839e1315a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messaging">
+      <UniqueIdentifier>{2cffcaa5-05ac-4490-add5-edee4fa24326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Messaging\IDList">
+      <UniqueIdentifier>{a5627163-909d-476d-a6a8-d4ba78b81944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States\Menu Items">
+      <UniqueIdentifier>{69c4c4ac-5955-421c-af99-8a58a146c479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Menu Items">
+      <UniqueIdentifier>{1f4f9b9e-1102-4213-9b98-538b4a37dec0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SRC\GameSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameplayState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IntroState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MainMenuState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MessageBox.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PauseState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\SwitchState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Asteroid.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PlayerHUD.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IPlayerListener.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PlayerManager.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Radar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\SmallEnemy.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\BigEnemy.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\EnemyGenerator.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\TurretBase.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\TurretHead.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IScoreListener.h">
+      <Filter>Header Files\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ScoreManager.h">
+      <Filter>Header Files\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\HighScoreState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PowerUp.h">
+      <Filter>Header Files\Objects\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PowerUpManager.h">
+      <Filter>Header Files\Objects\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\HardEnemy.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Shoot.h">
+      <Filter>Header Files\Objects\Shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ShootManager.h">
+      <Filter>Header Files\Objects\Shooting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\HardEnemyStates.h">
+      <Filter>Header Files\Objects\Enemy\EnemyStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\AISteering.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Enemy.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\SmallEnemyStates.h">
+      <Filter>Header Files\Objects\Enemy\EnemyStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\TurretHeadStates.h">
+      <Filter>Header Files\Objects\Enemy\EnemyStates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\EngineEnergyBall.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Spaceship.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\SpaceStation.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Enemy_Targeting.h">
+      <Filter>Header Files\Objects\Enemy\Enemy Selection Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\HelpState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\PreLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\StarField.h">
+      <Filter>Header Files\Effects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\SmokeParticle.h">
+      <Filter>Header Files\Effects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ExplosionSmokeParticle.h">
+      <Filter>Header Files\Effects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ExplosionParticle.h">
+      <Filter>Header Files\Effects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ExplosionFireParticle.h">
+      <Filter>Header Files\Effects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Decal_BrokenGlass.h">
+      <Filter>Header Files\Effects\Screen Decals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Decal_Blood.h">
+      <Filter>Header Files\Effects\Screen Decals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ScreenDecalManager.h">
+      <Filter>Header Files\Effects\Screen Decals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ParticleManager.h">
+      <Filter>Header Files\Effects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\KeybindsOptionsState.h">
+      <Filter>Header Files\States\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MouseOptionsState.h">
+      <Filter>Header Files\States\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\OptionsState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MessageBox_Keybind.h">
+      <Filter>Header Files\States\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ClassIDList.h">
+      <Filter>Header Files\Messaging\IDList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ScreenIDList.h">
+      <Filter>Header Files\Messaging\IDList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MessageType.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ScreenMessageTypes.h">
+      <Filter>Header Files\Messaging\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MenuEntry.h">
+      <Filter>Header Files\States\Menu Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\KeybindEntry.h">
+      <Filter>Header Files\States\Menu Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MenuTickBox.h">
+      <Filter>Header Files\States\Menu Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MenuScrollBar.h">
+      <Filter>Header Files\States\Menu Items</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SRC\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameplayState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\IntroState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MessageBox.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PauseState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\SwitchState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MainMenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Asteroid.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PlayerHUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Radar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\SmallEnemy.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\BigEnemy.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\EnemyGenerator.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\TurretBase.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\TurretHead.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\HighScoreState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PowerUp.cpp">
+      <Filter>Source Files\Objects\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PowerUpManager.cpp">
+      <Filter>Source Files\Objects\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\HardEnemy.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Shoot.cpp">
+      <Filter>Source Files\Objects\Shooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ShootManager.cpp">
+      <Filter>Source Files\Objects\Shooting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\HardEnemyStates.cpp">
+      <Filter>Source Files\Objects\Enemy\EnemyStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\AISteering.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Enemy.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\SmallEnemyStates.cpp">
+      <Filter>Source Files\Objects\Enemy\EnemyStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\TurretHeadStates.cpp">
+      <Filter>Source Files\Objects\Enemy\EnemyStates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\EngineEnergyBall.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Spaceship.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\SpaceStation.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Enemy_Targeting.cpp">
+      <Filter>Source Files\Objects\Enemy\Enemy Selection Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\HelpState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\PreLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\SmokeParticle.cpp">
+      <Filter>Source Files\Effects\ParticleEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\StarField.cpp">
+      <Filter>Source Files\Effects\ParticleEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ExplosionSmokeParticle.cpp">
+      <Filter>Source Files\Effects\ParticleEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ExplosionParticle.cpp">
+      <Filter>Source Files\Effects\ParticleEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ExplosionFireParticle.cpp">
+      <Filter>Source Files\Effects\ParticleEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ScreenDecalManager.cpp">
+      <Filter>Source Files\Effects\ScreenDecal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ParticleManager.cpp">
+      <Filter>Source Files\Effects\ParticleEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\OptionsState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\KeybindsOptionsState.cpp">
+      <Filter>Source Files\States\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MouseOptionsState.cpp">
+      <Filter>Source Files\States\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MessageBox_Keybind.cpp">
+      <Filter>Source Files\States\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ClassIDList.cpp">
+      <Filter>Source Files\Messaging\IDList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ScreenIDList.cpp">
+      <Filter>Source Files\Messaging\IDList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MenuEntry.cpp">
+      <Filter>Source Files\States\Menu Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\KeybindEntry.cpp">
+      <Filter>Source Files\States\Menu Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MenuTickBox.cpp">
+      <Filter>Source Files\States\Menu Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MenuScrollBar.cpp">
+      <Filter>Source Files\States\Menu Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

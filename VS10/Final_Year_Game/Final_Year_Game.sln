@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Final_Year_Game", "Final_Year_Game.vcxproj", "{674496E5-A888-40F6-8C4E-BD045E59DB2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20D84475-A570-44FB-9911-4E03AF099F73} = {20D84475-A570-44FB-9911-4E03AF099F73}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Engine.vcxproj", "{20D84475-A570-44FB-9911-4E03AF099F73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674496E5-A888-40F6-8C4E-BD045E59DB2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{674496E5-A888-40F6-8C4E-BD045E59DB2D}.Debug|Win32.Build.0 = Debug|Win32
+		{674496E5-A888-40F6-8C4E-BD045E59DB2D}.Release|Win32.ActiveCfg = Release|Win32
+		{674496E5-A888-40F6-8C4E-BD045E59DB2D}.Release|Win32.Build.0 = Release|Win32
+		{20D84475-A570-44FB-9911-4E03AF099F73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20D84475-A570-44FB-9911-4E03AF099F73}.Debug|Win32.Build.0 = Debug|Win32
+		{20D84475-A570-44FB-9911-4E03AF099F73}.Release|Win32.ActiveCfg = Release|Win32
+		{20D84475-A570-44FB-9911-4E03AF099F73}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

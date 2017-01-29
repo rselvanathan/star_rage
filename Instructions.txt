@@ -1,0 +1,19 @@
+Assets - Contains all the textures and models used for the game
+
+BIN - Will contain the Debug executable when built using VS2010
+
+INCLUDE - all the include header files for the game/engine
+
+LIB - all the library files, including my own engine, to be used for bulding the game
+
+OBJ - unused currently
+
+RELEASE - The release version will be placed here
+
+SRC - The source code for both the engine code and game code
+
+VS10 - Contains the Solutions files for both the engine and The game
+
+NOTE:
+To build the project go to the VS10 -> Final_Year_Game-> Then click on the Final_Year_Game
+Solutuin file. From here you can choose to build it as a release or debug version

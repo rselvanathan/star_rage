@@ -1,0 +1,5 @@
+Romesh2 120
+Romesh 90
+Destroyer 60
+Best 50
+Lankan 40

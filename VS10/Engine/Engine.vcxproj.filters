@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Testing">
+      <UniqueIdentifier>{2cc78691-3c4f-463d-b5c2-9d9782a47d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{deae4055-6fe7-417f-94d7-61a5809cbe3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{30048637-6a3b-483c-99d6-7d88c6567a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{a267f7c1-21c9-41bd-87a2-f239e31a5365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{35be500c-d84d-45ec-8187-eaaeccc99640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{73eef67c-25d3-4fe0-8168-1bdca64f0781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenGL">
+      <UniqueIdentifier>{9dfe8ad8-6eae-4d7a-9cfd-1d3fbd00171d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{18a20e84-885c-464a-a791-eeb42a68f676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{eb414643-1d30-4979-9351-c04a419083f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGL">
+      <UniqueIdentifier>{44b89a1c-4a5c-404c-aa5d-01cc2d692974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{f28a113c-cdfa-486a-884b-39436b1147a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{00f54420-4c70-462a-808d-b4e8fb2b3f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{d0ec5cfb-3916-43f7-895d-3140a6172770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{d3260453-23a0-4a1f-b166-12d3b6066553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{9ec5af9b-0998-4070-99be-da1dac5907d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timer">
+      <UniqueIdentifier>{9984a1e4-7bd6-4e19-bde2-f98c79327080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MessagingSystem">
+      <UniqueIdentifier>{154e2e4f-12cf-4a81-b050-530236108e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MessageSystem">
+      <UniqueIdentifier>{500ee2fd-da90-4c42-ae2c-14cbbe52593a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateMachine">
+      <UniqueIdentifier>{5bb22c1a-7e54-44ab-9432-1aecfaf94f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{b0ecbb86-982d-48bb-8703-f7fbd1b278c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\FuzzyLogic">
+      <UniqueIdentifier>{fb98b294-d34f-4f09-937c-95e78ded2ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\FuzzyLogic\FuzzySetTypes">
+      <UniqueIdentifier>{868fd70d-7f55-469b-9077-590a620ea0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{5fcf0eb2-15a2-40ba-8a66-74bf0242dc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\FuzzyLogic">
+      <UniqueIdentifier>{6d665784-8320-420b-85c9-adf198476f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\FuzzyLogic\FuzzySetTypes">
+      <UniqueIdentifier>{3734b715-f1d5-4135-942d-57973aa6f1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{1f48b034-68e6-4063-beea-9a4f47051630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\ParticleEngine">
+      <UniqueIdentifier>{be060061-9d45-4ac3-93be-960e8322394c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects\ScreenDecal">
+      <UniqueIdentifier>{85b7d63d-47cb-443c-afdc-b777daf763af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{e13bed4e-59f8-40d3-bbcf-35ab7b792f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\ParticleEngine">
+      <UniqueIdentifier>{0d38d19c-7bc1-4d3c-91df-80ff87d6d079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects\ScreenDecal">
+      <UniqueIdentifier>{7b599746-6f17-449e-b2b1-7f8983151ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Constants">
+      <UniqueIdentifier>{98758f12-8c5d-4d15-ad0b-104218599890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{fd54fed9-308e-4ed1-ad11-79793ecae45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Interface">
+      <UniqueIdentifier>{22647df0-cc44-4d61-a36c-73c7314c0593}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SRC\GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameStateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\SmartPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FrameTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MyException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\DirectXVector.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Quaternion.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Matrix4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameObjectType.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameWorld.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Entity.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\BoundingShape.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\BoundingSphere.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\CollisionManager.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GL2DText.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GLText.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Texture.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\InputManager.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Graphics.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Model_3DS.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GLFog.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GLLight.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GL2DBox.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Frustum.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Plane.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\BoundingBox.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IGameWorldListener.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\CRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GLBox.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Particle.h">
+      <Filter>Header Files\Effects\ParticleEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ParticleEngine.h">
+      <Filter>Header Files\Effects\ParticleEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GLParticleEngine.h">
+      <Filter>Header Files\Effects\ParticleEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameWindow.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Window.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Timer.h">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ITimerListener.h">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Telegram.h">
+      <Filter>Header Files\MessagingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MessageDispatcher.h">
+      <Filter>Header Files\MessagingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\State.h">
+      <Filter>Header Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\StateMachine.h">
+      <Filter>Header Files\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\GameTime.h">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzyModule.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzySet.h">
+      <Filter>Header Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzyTerm.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzySet_LeftShoulder.h">
+      <Filter>Header Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzySet_RightShoulder.h">
+      <Filter>Header Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzySet_Triangle.h">
+      <Filter>Header Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzySet_Singleton.h">
+      <Filter>Header Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzyHedges.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzyOperators.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzyRule.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FuzzyVariable.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FzSet.h">
+      <Filter>Header Files\AI\FuzzyLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\BaseClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\CLassManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\MovingEntity.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\ScreenDecal.h">
+      <Filter>Header Files\Effects\ScreenDecal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\OctreeCollision.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\Skybox.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\InputContext.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\InputMapper.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\RawInputConstants.h">
+      <Filter>Header Files\Input\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\InputConstants.h">
+      <Filter>Header Files\Input\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\InputRangeConverter.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IButtonListener.h">
+      <Filter>Header Files\Input\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IMapperListener.h">
+      <Filter>Header Files\Input\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IMenuButtonListener.h">
+      <Filter>Header Files\Input\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IMousePosListener.h">
+      <Filter>Header Files\Input\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IRawButtonListener.h">
+      <Filter>Header Files\Input\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SRC\IKeyCharListener.h">
+      <Filter>Header Files\Input\Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SRC\GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameStateManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FrameTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Quaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GLVector.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Matrix4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameObjectType.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameWorld.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GL2DText.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GLText.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Texture.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Graphics.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Model_3DS.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GLFog.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GLLight.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GL2DBox.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Frustum.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\CRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GLBox.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GLParticleEngine.cpp">
+      <Filter>Source Files\Effects\ParticleEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ParticleEngine.cpp">
+      <Filter>Source Files\Effects\ParticleEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\GameWindow.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Window.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\CollisionManager.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Entity.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MessageDispatcher.cpp">
+      <Filter>Source Files\MessageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzySet_LeftShoulder.cpp">
+      <Filter>Source Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzySet_RightShoulder.cpp">
+      <Filter>Source Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzySet_Singleton.cpp">
+      <Filter>Source Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzySet_Triangle.cpp">
+      <Filter>Source Files\AI\FuzzyLogic\FuzzySetTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzyModule.cpp">
+      <Filter>Source Files\AI\FuzzyLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzyOperators.cpp">
+      <Filter>Source Files\AI\FuzzyLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\FuzzyVariable.cpp">
+      <Filter>Source Files\AI\FuzzyLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\BaseClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ClassManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\MovingEntity.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\ScreenDecal.cpp">
+      <Filter>Source Files\Effects\ScreenDecal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\OctreeCollision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\Skybox.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\InputMapper.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\InputContext.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SRC\InputRangeConverter.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram11.cd" />
+  </ItemGroup>
+</Project>

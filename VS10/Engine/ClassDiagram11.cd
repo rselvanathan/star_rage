@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseClass" Collapsed="true">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgBAAAAAAAAAAAAAgAAAAAIAACAAAAIAAAAgAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\BaseClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassManager" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAAAAAABGAAAAAAAAAABAAACAAAAAAAAAAgAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\CLassManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRandom" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAAEAAAAAAAAACAAAAABAAQCAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\CRandom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrameTimer" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAQMRAAAAQAAAAAAAiCgAAAAAAKAABAJAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FrameTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameDisplay" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAJAABAAAABAAAAAAEAAAAI=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameDisplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameState" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARSgAAACAAUIAAAAwAAAAAAAABgAAAAAABASAAgCKSA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManager" Collapsed="true">
+    <Position X="8.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAEIBARAQIAEAABAABAAAAAEABAEQBAACSE=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameStateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyException" Collapsed="true">
+    <Position X="24.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\MyException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreLoader" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIgBTBAAQKUAAKIAgEggAIAAlAAAEAAIBAQkBAAAICA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\PreLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAAAAAAAAAAAAAABABAAAAAAACABAAAAAAAAI=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeTest" Collapsed="true">
+    <Position X="28" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAABAAICIAgAAggBAAAIAAoABACIAAAQgA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\OctreeTest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Test_Box" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAAAQAAhAQAQUAAAADyACAABkAoAxhrEkAAAAQ=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Test_Box.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLVector2&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAoAFIAAAAwAAAAAEQIAREQAAEABAAAAIAiAAAAAYA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLVector3&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAkAFIAAAAwAAAAAEQIAREQAAEABIAAAIAiAAAAgYA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLVector4&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAFIAAAAwAAAAAEQIAREQAAEABIAAAIAiAAAAgYA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix4" Collapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAABAAAQAAAAEAAAgCGEAgAABAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Matrix4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quaternion" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQBAAIAIDAAAAEAIACSCAAAAAAAAAAGhgAQBQAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Quaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec2" Collapsed="true">
+    <Position X="24.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAABACAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\DirectXVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec3" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIAAABACAAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\DirectXVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vec4" Collapsed="true">
+    <Position X="28" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAABACAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\DirectXVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="2.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQQIAMRBGaAAJElCAAAEARU0BCEQWkFIJBgBAhuCAgQ=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovingEntity" Collapsed="true">
+    <Position X="2.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAUAAAjFAIIABCCAEIAACAAAAEAAAkgAAEgCAmUAQAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\MovingEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectType" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAABAAAAAAAIAQAAABAAAAAAAAQgMAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameObjectType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWorld" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCRgAAARAIBMBBAIAAABAEAAhAAgKAAAgBIgAEAEAAE=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGameWorldListener" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\IGameWorldListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingBox" Collapsed="true">
+    <Position X="5.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAkQAAAIAAAAAAAAACAEAAAIAFAAgJAAAAY=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\BoundingBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingShape" Collapsed="true">
+    <Position X="6.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAQAAAAAAAAABEBAAAAAAQAEAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\BoundingShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundingSphere" Collapsed="true">
+    <Position X="7.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAQAAAAAAAAAAAgAAAAIACAAAABAAACiAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\BoundingSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionManager" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAIAARAgICAAAAAAAAAAAQAAIAgAAQACAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GL2DBox" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgIAAAAAQAAhAQQQQAAAADyACAABkAoAxhjAkAAAAQ=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GL2DBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GL2DText" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABIAAACAAAAAABAAAABACIAAAAgIoAQABAgAAAgA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GL2DText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLBox" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAQAAAEQIQEAAACCiACAAAkgoYRljAwQAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLFog" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAgoATgBIACAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLFog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLLight" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgFIgEABQACwfAgCgUAAAAAAkQo4AoEAABlgEQAAIAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLText" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZAAAAAAAAAAAAAgEBAAAABAAAAAgAAJABoEAgAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLTexture" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAgAAAAAAAAAQATAAIAAAAAAAEAwAAICAAAAIAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphics" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAWACAAAAAQAEQAAIAAAAADAAAEAgAAAAEkAIAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Graphics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model_3DS" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEIAgEAgAAEgAgEQQAACAoAiEAwAAAGIDAEACAAAYFE=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Model_3DS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture" Collapsed="true">
+    <Position X="21" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACAAAAgARERAAICAAAAAAAAgAABAIQAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IKeyboardListener" Collapsed="true">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\IKeyboardListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMouseListener" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\IMouseListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputManager" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gTAAIABCAAEAiBAAigiACEIAAAiAAAcQCCBCIgAIAUA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUCwIBgGCAABAAAQIAoQACYgiAAMgACAIwACBADEzQ=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frustum" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Frustum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLParticleEngine" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAEIgAAgQCACAAAwAAIBACIoAQAhA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLParticleEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Particle" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA0AAAAAAAAACAAAAAAAAAACAAQAAAAIAQgBIAAAAgA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleEngine" Collapsed="true">
+    <Position X="2.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAQAAAgAAAACAAAgAAEQCAAAAAwAIoBICAAABABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\ParticleEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleManager" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAhAKAAAAABAAAhAAAAAAABACAAAAEBBAAAAAAYAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\ParticleManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWindow" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAQABgQgAAAAQABEAAYgIBDAAAAAAACSKCAACQAEQ=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IKeyCharListener" Collapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\IKeyCharListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IWindowListener" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\IWindowListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window" Collapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAQIAAIAABQAAAAAIAAAACAoAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTime" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAABAAAAAIAAAAAAAAIABAAAACAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITimerListener" Collapsed="true">
+    <Position X="5.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\ITimerListener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageDispatcher" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAgAAAAIBAAAAAAQAAAAAAABAQQ=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\MessageDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State&lt;entity_type&gt;" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAKEABAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine&lt;entity_type&gt;" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAIBAgIAJBBAAAAAIAQAAAAIgIAAAAAAAgQAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\StateMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FzVery" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAiAAgAABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyHedges.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FzFairly" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAIAAAAAACAAAAAAAAiAAgAABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyHedges.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyModule" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAACAAEAAFAAAAAAAAAAAAgAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FzAND" Collapsed="true">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAIAAAAAAAAABAAAAAAAAiAAgAABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyOperators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FzOR" Collapsed="true">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAAAABAAAAAAAAAAAAABAAAAAAAAiAAgAABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyOperators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyRule" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAGAAAAAIABBgAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyRule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyTerm" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAEAAAAAAAAAAAAAAAAAACAAgAABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyTerm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyVariable" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIIgQAAAAAABAAAAAAAQABQEIACAAAAAgAAAAAgA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzyVariable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FzSet" Collapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAIAAAAAAAAAAAACAACAAgAABA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FzSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzySet" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAADAAgAAABAAAAAAAAACAAAGACAAgAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzySet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzySet_LeftShoulder" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAQkAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzySet_LeftShoulder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzySet_RightShoulder" Collapsed="true">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQkAAAgAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzySet_RightShoulder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzySet_Singleton" Collapsed="true">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAAAAAAAAAAAAAAAAAAAAAAAgQEAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzySet_Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzySet_Triangle" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAACQkAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\FuzzySet_Triangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="idllib::SmartPtr&lt;T&gt;" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAIAAAAAAAAAAAAAAwAEAAAAAAAEAAAiAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\SmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="idllib::IRefCount&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAEAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\SmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="idllib::IRefCountImpl&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEABAEAAAAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\SmartPtr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_00d0_1" Collapsed="true">
+    <Position X="15.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAwAAAAAAAAAAAAAAAABgAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Texture.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Plane" Collapsed="true">
+    <Position X="24.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkAQAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Plane.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ParticleP" Collapsed="true">
+    <Position X="22.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAIAACAAQAAAQIAQQBIAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLParticleEngine.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Explosion" Collapsed="true">
+    <Position X="21" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAIAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\ParticleManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Telegram" Collapsed="true">
+    <Position X="26.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAACQAAEAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Telegram.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="uint" Collapsed="true">
+    <Position X="24.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameUtil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uchar" Collapsed="true">
+    <Position X="22.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameUtil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="largeInt" Collapsed="true">
+    <Position X="21" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GameUtil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec3List" Collapsed="true">
+    <Position X="26.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Shape.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector2b" Collapsed="true">
+    <Position X="6.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector2s" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector2i" Collapsed="true">
+    <Position X="6.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector2f" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector2d" Collapsed="true">
+    <Position X="3.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector3b" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector3s" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector3i" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector3f" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector3d" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector4b" Collapsed="true">
+    <Position X="14.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector4s" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector4i" Collapsed="true">
+    <Position X="8.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector4f" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLVector4d" Collapsed="true">
+    <Position X="11.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\GLVector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TextureImage" Collapsed="true">
+    <Position X="15.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\Romesh\Desktop\Final_Year_Project\SRC\Texture.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
