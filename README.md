@@ -1,3 +1,5 @@
+![Imgur](http://i.imgur.com/V4c6E39.jpg)
+
 Star Rage is a 3D 3rd Person shooter game set in space. The game involves surviving the waves of enemy space fighters and captial ships as well as avoiding the asteroids that are randomly flying across space. 
 
 This game was completed as part of the final year project and was chosen to be shown off at the 2012 'Digital Shoreditch' event in London. The project was developed from scratch only using C++ and OpenGL.
