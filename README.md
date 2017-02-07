@@ -12,6 +12,8 @@ Key Features
 - Particle Effects and Screen Decals 
 - Flexible Input System (ability to remap keys and mouse settings)
 
+For Gameplay and images visit : https://romeshselvan.com/projects
+
 Notes & Instructions
 
 https://www.dropbox.com/s/utq8o21ke66jwvp/Star_Rage_EXECUTABLE.zip
